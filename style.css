@@ -1,0 +1,72 @@
+body {
+  margin: 0px;
+}
+
+#demo {
+  text-align: center; 
+}
+
+.move {
+  display: inline-block;
+  text-align: center;
+  font-size: 72px;
+  font-weight: bold;
+  color: yellow;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-fill-mode:forwards
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(-1000px);
+    display: inline-block;
+  }
+  100% {
+    transform: translateX(0px);
+    display: inline-block;
+  }
+}
+
+.container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-image:
+    url(https://scontent.ftpe4-1.fna.fbcdn.net/v/t1.0-0/p640x640/91530546_2956304864461153_4934801884188770304_o.jpg?_nc_cat=101&_nc_sid=e3f864&_nc_ohc=_l8V0E4Zp9oAX-2G4sD&_nc_ht=scontent.ftpe4-1.fna&_nc_tp=6&oh=43c0c3c18c5c9849ce266fed340ac5e9&oe=5F59BCBC);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:auto
+}
+
+.title2{
+  font-size:30px;
+  color: yellow;
+  font-weight:bold;
+}
+
+.content{
+  font-size: 20px;
+  display: flex;
+  jusify
+  align-items: center;
+  width:850px;
+  margin-left: 250px;
+  margin-top:20px; 
+}
+
+.photo{
+  margin-top:50px;
+  align-items:center;
+  display: flex;
+  flex-direction:column;
+  background-color:#757575
+}
+
+.ending{
+  color:white;
+  margin-top:20px;
+  background-color:black;
+  width:100%;
+  height:100px;
+}
